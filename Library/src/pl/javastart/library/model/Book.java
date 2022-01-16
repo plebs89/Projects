@@ -1,6 +1,7 @@
 package pl.javastart.library.model;
 
 public class Book {
+    //pola
     private String title;
     private String author;
     private int releaseDate;
@@ -8,6 +9,7 @@ public class Book {
     private String publisher;
     private String isbn;
 
+    //konstruktory
     public Book(String title, String author, int releaseDate, int pages, String publisher, String isbn) {
         this(title, author, releaseDate, pages, publisher);
         this.isbn = isbn;
@@ -21,6 +23,7 @@ public class Book {
         this.publisher = publisher;
     }
 
+    //settery i gettery
     public String getTitle() {
         return title;
     }
@@ -70,7 +73,10 @@ public class Book {
     }
 
     public void printInfo() {
-        String info = title + "; " + author + "; " + releaseDate + "; " + pages + "; " + publisher + "; " + isbn;
+        String info = title + "; " + author + "; " + releaseDate + "; " + pages + "; " + publisher;
+        if (isbn != null){
+            info = info + "; " + isbn;
+        }
         System.out.println(info);
     }
 }
