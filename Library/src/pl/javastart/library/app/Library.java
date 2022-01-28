@@ -18,5 +18,6 @@ public class Library {
         books[0].printInfo();
         books[1].printInfo();
         books[2].printInfo();
+        System.out.println("System może przechowywać do " + books.length + " książek");
     }
 }
