@@ -8,6 +8,8 @@ public abstract class Publication implements Serializable {
     private String publisher;
     private int year;
 
+    public abstract String toCsv();
+
     Publication(String title, String publisher, int year) {
         this.title = title;
         this.publisher = publisher;
@@ -43,7 +45,7 @@ public abstract class Publication implements Serializable {
 
     @Override
     public String toString() {
-        return title + ", " + publisher + ", " + year + ", ";
+        return title + ", " + publisher + ", " + year;
     }
 
     @Override
