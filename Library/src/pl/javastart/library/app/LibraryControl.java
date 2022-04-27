@@ -9,6 +9,7 @@ import pl.javastart.library.model.*;
 import pl.javastart.library.model.comparator.AlphabeticalTitleComparator;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.InputMismatchException;
 
 class LibraryControl {
@@ -126,19 +127,21 @@ class LibraryControl {
         }
     }
 
-    //zmiana logiki
     private void printBooks() {
-        printer.printBooks(library.getPublications().values());
+        printer.printBooks(library.getSortedPublications(new AlphabeticalTitleComparator()));
     }
 
-    //zmiana logiki
     private void printMagazines() {
-        printer.printMagazines(library.getPublications().values());
+        printer.printMagazines(library.getSortedPublications(new AlphabeticalTitleComparator()));
     }
 
-    //dodano
     private void printUsers() {
-        printer.printUsers(library.getUsers().values());
+        printer.printUsers(library.getSortedUsers(new Comparator<LibraryUser>() {
+            @Override
+            public int compare(LibraryUser p1, LibraryUser p2) {
+                return p1.getLastName().compareToIgnoreCase(p2.getLastName());
+            }
+        }));
     }
 
     private void deleteMagazine() {
