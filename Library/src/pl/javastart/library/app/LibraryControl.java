@@ -6,9 +6,7 @@ import pl.javastart.library.io.DataReader;
 import pl.javastart.library.io.file.FileManager;
 import pl.javastart.library.io.file.FileManagerBuilder;
 import pl.javastart.library.model.*;
-import pl.javastart.library.model.comparator.AlphabeticalTitleComparator;
 
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.InputMismatchException;
 
@@ -56,11 +54,14 @@ class LibraryControl {
                 case DELETE_MAGAZINE:
                     deleteMagazine();
                     break;
-                case ADD_USER: //dodano
+                case ADD_USER:
                     addUser();
                     break;
-                case PRINT_USERS: //dodano
+                case PRINT_USERS:
                     printUsers();
+                    break;
+                case FIND_BOOK:
+                    findBook();
                     break;
                 case EXIT:
                     exit();
@@ -117,7 +118,6 @@ class LibraryControl {
         }
     }
 
-    //dodano
     private void addUser() {
         LibraryUser libraryUser = dataReader.createLibraryUser();
         try {
@@ -143,6 +143,15 @@ class LibraryControl {
         printer.printUsers(library.getSortedUsers(
                 Comparator.comparing(User::getLastName, String.CASE_INSENSITIVE_ORDER)
         ));
+    }
+
+    private void findBook() {
+        printer.printLine("Podaj tytuł publikacji:");
+        String title = dataReader.getString();
+        String notFoundMessage = "Brak publikacji o takim tytule";
+        library.findPublicationByTitle(title)
+                .map(Publication::toString)
+                .ifPresentOrElse(System.out::println, () -> System.out.println(notFoundMessage));
     }
 
     private void deleteMagazine() {
@@ -188,8 +197,9 @@ class LibraryControl {
         PRINT_MAGAZINES(4, "Wyświetlenie dostępnych magazynów/gazet"),
         DELETE_BOOK(5, "Usuń książkę"),
         DELETE_MAGAZINE(6, "Usuń magazyn"),
-        ADD_USER(7, "Dodaj czytelnika"), //dodano
-        PRINT_USERS(8, "Wyświetl czytelników"); //dodano
+        ADD_USER(7, "Dodaj czytelnika"),
+        PRINT_USERS(8, "Wyświetl czytelników"),
+        FIND_BOOK(9, "Wyszukaj książkę");
 
         private int value;
         private String description;
