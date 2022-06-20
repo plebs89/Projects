@@ -7,7 +7,7 @@ public class Book extends Publication {
 
     @Override
     public String toCsv() {
-        return (TYPE + ";") + getTitle() + ";" + getPublisher() + ";" + getYear() + ";" + author + ";" + pages + ";" + isbn + ", ";
+        return (TYPE + ";") + getTitle() + ";" + getPublisher() + ";" + getYear() + ";" + author + ";" + pages + ";" + isbn;
     }
 
     // Pola
