@@ -10,12 +10,12 @@
 
 ### :man_technologist: &nbsp;About Me :
 
-I am a IT Technical Support <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from
+I'm a IT Technical Support <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from
 Poland.
 
 - 🔭 I’m working as a IT Technical Support and privately learning to frontend and backend for building Java applications.
 - 🌱 Exploring Technical Content Writing.
-- ⚡ In my free time I am building house and learning Java, JavaFX, JavaScript, Maven.
+- ⚡ In my free time I'm building house and learning Java, JavaFX, Maven.
 - 📫 How to reach me:
   &nbsp; [![Linkedin Badge](https://img.shields.io/badge/Jakub-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jakub-szewczyk-1a1872129/)
 
