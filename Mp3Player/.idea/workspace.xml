@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dce2e24-1c93-4c7d-b05d-18494b7ced3b" name="Changes" comment="Readme 1.1">
+    <list default="true" id="1dce2e24-1c93-4c7d-b05d-18494b7ced3b" name="Changes" comment="Readme 1.2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +158,7 @@
       <workItem from="1655708046246" duration="258000" />
       <workItem from="1655708378782" duration="24000" />
       <workItem from="1655708507656" duration="604000" />
-      <workItem from="1655719313440" duration="7664000" />
+      <workItem from="1655719313440" duration="8643000" />
     </task>
     <task id="LOCAL-00001" summary="Projekt Mp3 Player wersja 1.0">
       <created>1654259249669</created>
@@ -236,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655732247687</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Readme 1.2">
+      <created>1655732473535</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655732473535</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +275,7 @@
     <MESSAGE value="Mp3 Player 1.4" />
     <MESSAGE value="Mp3 Player 1.4 rename" />
     <MESSAGE value="Readme 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme 1.1" />
+    <MESSAGE value="Readme 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme 1.2" />
   </component>
 </project>

@@ -14,8 +14,9 @@ I'm a IT Technical Support <img src="https://media.giphy.com/media/WUlplcMpOCEmT
 Poland.
 
 - 🔭 I’m working as a IT Technical Support and privately learning to frontend and backend for building Java applications.
-- 🌱 Exploring Technical Content Writing.
-- ⚡ In my free time I'm building house and learning Java, JavaFX, Maven.
+- ⚡ In my free time I'm building house and learning software languages and tools on courses.
+- 🌱 I'm currently learning IntelliJ IDEA, Java, JavaFX, Maven, Scene Builder, Git, GitHub, PowerApps.
+- :eyes: I'm interested in becoming Full Stack Java Developer and building apps that helps others
 - 📫 How to reach me:
   &nbsp; [![Linkedin Badge](https://img.shields.io/badge/Jakub-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jakub-szewczyk-1a1872129/)
 
