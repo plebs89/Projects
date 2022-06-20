@@ -4,7 +4,7 @@
 </p>
 <p align="center"><img src="https://komarev.com/ghpvc/?username=plebs89=flat-square&color=blue" alt=""></p>
 
-<h1 align="center">Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"> I'm Jakub:technologist: </h1>
+<h1 align="center">Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"> I'm Jakub :technologist:</h1>
 
 <p align="center"><img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"  /></p>
 
@@ -17,8 +17,7 @@ Poland.
 - ⚡ In my free time I'm building house and learning software languages and tools on courses.
 - 🌱 I'm currently learning IntelliJ IDEA, Java, JavaFX, Maven, Scene Builder, Git, GitHub, PowerApps.
 - :eyes: I'm interested in becoming Full Stack Java Developer and building apps that helps others
-- 📫 How to reach me:
-  &nbsp; [![Linkedin Badge](https://img.shields.io/badge/Jakub-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jakub-szewczyk-1a1872129/)
+- 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/Jakub-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jakub-szewczyk-1a1872129/)
 
 ---
 
