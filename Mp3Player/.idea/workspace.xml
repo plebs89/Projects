@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dce2e24-1c93-4c7d-b05d-18494b7ced3b" name="Changes" comment="Mp3Player 1.6">
+    <list default="true" id="1dce2e24-1c93-4c7d-b05d-18494b7ced3b" name="Changes" comment="Mp3Player 1.7">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/mainPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/mainPane.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +41,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/plebs/JavaStart/Projects/Mp3Player",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/plebs/JavaStart/Projects/Mp3Player&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.javastart.mp3player.main.Main" />
@@ -166,7 +168,8 @@
       <workItem from="1655839083159" duration="597000" />
       <workItem from="1655879621846" duration="596000" />
       <workItem from="1655906408917" duration="1765000" />
-      <workItem from="1655980301011" duration="459000" />
+      <workItem from="1655980301011" duration="1243000" />
+      <workItem from="1656957580372" duration="88000" />
     </task>
     <task id="LOCAL-00001" summary="Projekt Mp3 Player wersja 1.0">
       <created>1654259249669</created>
@@ -287,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655913375081</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Mp3Player 1.7">
+      <created>1655980848941</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655980848941</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +334,7 @@
     <MESSAGE value="Readme 1.5" />
     <MESSAGE value="Mp3Player 1.5" />
     <MESSAGE value="Mp3Player 1.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mp3Player 1.6" />
+    <MESSAGE value="Mp3Player 1.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mp3Player 1.7" />
   </component>
 </project>
