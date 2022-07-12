@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dce2e24-1c93-4c7d-b05d-18494b7ced3b" name="Changes" comment="Mp3Player 1.9">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/mp3/Mp3Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/controller/ContentPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/controller/ContentPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/contentPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/contentPane.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="1dce2e24-1c93-4c7d-b05d-18494b7ced3b" name="Changes" comment="Mp3Player 2.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +176,7 @@
       <workItem from="1657369996419" duration="129000" />
       <workItem from="1657371794206" duration="31000" />
       <workItem from="1657448056451" duration="685000" />
-      <workItem from="1657646804933" duration="885000" />
+      <workItem from="1657646804933" duration="1641000" />
     </task>
     <task id="LOCAL-00001" summary="Projekt Mp3 Player wersja 1.0">
       <created>1654259249669</created>
@@ -317,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657132933929</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Mp3Player 2.0">
+      <created>1657647929935</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1657647929935</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +357,7 @@
     <MESSAGE value="Mp3Player 1.6" />
     <MESSAGE value="Mp3Player 1.7" />
     <MESSAGE value="Mp3Player 1.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mp3Player 1.9" />
+    <MESSAGE value="Mp3Player 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mp3Player 2.0" />
   </component>
 </project>
