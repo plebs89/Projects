@@ -12,7 +12,7 @@
     <properties>
         <maven.compiler.source>17.0.2</maven.compiler.source>
         <maven.compiler.target>17.0.2</maven.compiler.target>
-        <javafx.version>18.0.1</javafx.version>
+        <javafx.version>18.0.2</javafx.version>
         <jid3lib.version>0.5.4</jid3lib.version>
     </properties>
 
@@ -36,6 +36,11 @@
             <groupId>net.sf.javamusictag</groupId>
             <artifactId>jid3lib</artifactId>
             <version>${jid3lib.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-media</artifactId>
+            <version>${javafx.version}</version>
         </dependency>
     </dependencies>
 
