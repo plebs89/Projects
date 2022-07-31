@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dce2e24-1c93-4c7d-b05d-18494b7ced3b" name="Changes" comment="Mp3Player 2.1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/player/Mp3Player.java" afterDir="false" />
+    <list default="true" id="1dce2e24-1c93-4c7d-b05d-18494b7ced3b" name="Changes" comment="Mp3Player 2.2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/mp3/Mp3Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/aboutPane.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/controller/ContentPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/controller/ContentPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/controller/ControlPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/controller/ControlPaneController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/controller/MenuPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/javastart/mp3player/controller/MenuPaneController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +20,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="FxmlFile" />
         <option value="CSS File" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -190,7 +188,8 @@
       <workItem from="1657887720726" duration="206000" />
       <workItem from="1657914143838" duration="595000" />
       <workItem from="1658078977866" duration="1302000" />
-      <workItem from="1659207588715" duration="1678000" />
+      <workItem from="1659207588715" duration="1825000" />
+      <workItem from="1659264471305" duration="2105000" />
     </task>
     <task id="LOCAL-00001" summary="Projekt Mp3 Player wersja 1.0">
       <created>1654259249669</created>
@@ -339,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657648664270</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Mp3Player 2.2">
+      <created>1659209303238</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659209303238</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,6 +386,7 @@
     <MESSAGE value="Mp3Player 1.9" />
     <MESSAGE value="Mp3Player 2.0" />
     <MESSAGE value="Mp3Player 2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mp3Player 2.1" />
+    <MESSAGE value="Mp3Player 2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mp3Player 2.2" />
   </component>
 </project>
