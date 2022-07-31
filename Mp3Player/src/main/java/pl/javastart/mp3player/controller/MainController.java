@@ -111,8 +111,9 @@ public class MainController {
             File file = fc.showOpenDialog(new Stage());
             try {
                 contentPaneController.getContentTable().getItems().add(Mp3Parser.createMp3Song(file));
+                showMessage("Załadowano plik " + file.getName());
             } catch (Exception e) {
-                e.printStackTrace(); //ignore
+                showMessage("Nie można otworzyć pliku " + file.getName());
             }
         });
 
@@ -121,9 +122,14 @@ public class MainController {
             File dir = dc.showDialog(new Stage());
             try {
                 contentPaneController.getContentTable().getItems().addAll(Mp3Parser.createMp3List(dir));
+                showMessage("Wczytano dane z folderu " + dir.getName());
             } catch (Exception e) {
-                e.printStackTrace(); //ignore
+                showMessage("Wystąpił błąd podczas odczytu folderu");
             }
         });
+    }
+
+    private void showMessage(String message) {
+        controlPaneController.getMessageTextField().setText(message);
     }
 }
