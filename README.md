@@ -15,7 +15,7 @@ Poland.
 
 - 🔭 I’m working as a IT Technical Support and privately learning to frontend and backend for building Java applications.
 - ⚡ In my free time I'm building house and learning software languages and tools on courses.
-- 🌱 I'm currently learning IntelliJ IDEA, Java, JavaFX, Maven, Scene Builder, Git, GitHub, PowerApps, JavaScript, Spring, Tomcat, Java EE, MySQL, HTML, CSS, Bootstrap.
+- 🌱 I'm currently learning IntelliJ IDEA, Java, JavaFX, Maven, Scene Builder, Git, GitHub, PowerApps, JavaScript, Spring, Tomcat, Java EE, MySQL, HTML, CSS, Bootstrap, Heroku.
 - :eyes: I'm interested in becoming Full Stack Java Developer and building apps that helps others.
 - 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/Jakub-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jakub-szewczyk-1a1872129/)
 
@@ -35,6 +35,7 @@ Poland.
 <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg" title="HTML"  alt="HTML" width="40" height="40"/>&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg" title="CSS"  alt="CSS" width="40" height="40"/>&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/bootstrap/bootstrap-original-wordmark.svg" title="Bootstrap"  alt="Bootstrap" width="40" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/heroku/heroku-original-wordmark.svg" title="Heroku"  alt="Heroku" width="40" height="40"/>&nbsp;
 </p>
 
 ---
