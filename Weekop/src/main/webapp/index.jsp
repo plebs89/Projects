@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +25,14 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Główna</a></li>
                 <li><a href="#">Dodaj</a></li>
-                <li><a href="#">Zaloguj się</a></li>
+                <c:choose>
+                    <c:when test="${not empty sessionScope.user}">
+                        <li><a href="logout">Wyloguj się</a></li>
+                    </c:when>
+                    <c:otherwise>
+                        <li><a href="login">Zaloguj się</a></li>
+                    </c:otherwise>
+                </c:choose>
             </ul>
         </div>
 
@@ -41,8 +49,7 @@
         <div class="col col-md-11 col-sm-10">
             <h3 class="centered"><a href="#">Znalezisko</a></h3>
             <h6><small>Dodane przez: Mietek, Dnia: 01 styczeń 2015</small></h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Lorem ipsum dolor</p>
             <button class="btn btn-default btn-xs">Przejdź do strony</button>
         </div>
     </div>
@@ -55,8 +62,7 @@
         <div class="col col-md-11 col-sm-10">
             <h3 class="centered"><a href="#">Znalezisko</a></h3>
             <h6><small>Dodane przez: Mietek, Dnia: 01 styczeń 2015</small></h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Lorem ipsum dolor</p>
             <button class="btn btn-default btn-xs">Przejdź do strony</button>
         </div>
     </div>
@@ -69,8 +75,7 @@
         <div class="col col-md-11 col-sm-10">
             <h3 class="centered"><a href="#">Znalezisko</a></h3>
             <h6><small>Dodane przez: Mietek, Dnia: 01 styczeń 2015</small></h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Lorem ipsum dolor</p>
             <button class="btn btn-default btn-xs">Przejdź do strony</button>
         </div>
     </div>
@@ -83,8 +88,7 @@
         <div class="col col-md-11 col-sm-10">
             <h3 class="centered"><a href="#">Znalezisko</a></h3>
             <h6><small>Dodane przez: Mietek, Dnia: 01 styczeń 2015</small></h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Lorem ipsum dolor</p>
             <button class="btn btn-default btn-xs">Przejdź do strony</button>
         </div>
     </div>
