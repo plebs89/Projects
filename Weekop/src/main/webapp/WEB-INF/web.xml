@@ -3,7 +3,7 @@
          xmlns="http://xmlns.jcp.org/xml/ns/javaee"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          id="WebApp_ID" version="3.1">
-    <display-name>Weekop</display-name>
+    <display-name>Weekop14</display-name>
     <security-constraint>
         <display-name>Login required</display-name>
         <web-resource-collection>
@@ -33,4 +33,12 @@
             <form-error-page>/WEB-INF/login.jsp</form-error-page>
         </form-login-config>
     </login-config>
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <url-pattern>*.jspf</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
 </web-app>
