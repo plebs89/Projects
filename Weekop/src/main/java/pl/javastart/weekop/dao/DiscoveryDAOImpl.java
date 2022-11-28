@@ -1,9 +1,12 @@
 package pl.javastart.weekop.dao;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
@@ -11,6 +14,7 @@ import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 
 import pl.javastart.weekop.model.Discovery;
+import pl.javastart.weekop.model.User;
 import pl.javastart.weekop.util.ConnectionProvider;
 
 public class DiscoveryDAOImpl implements DiscoveryDAO {
@@ -18,6 +22,9 @@ public class DiscoveryDAOImpl implements DiscoveryDAO {
     private static final String CREATE_DISCOVERY =
             "INSERT INTO discovery(name, description, url, user_id, date, up_vote, down_vote) "
                     + "VALUES(:name, :description, :url, :user_id, :date, :up_vote, :down_vote);";
+    private static final String READ_ALL_DISCOVERIES =
+            "SELECT user.user_id, username, email, is_active, password, discovery_id, name, description, url, date, up_vote, down_vote "
+                    + "FROM discovery LEFT JOIN user ON discovery.user_id=user.user_id;";
 
     private NamedParameterJdbcTemplate template;
 
@@ -40,7 +47,7 @@ public class DiscoveryDAOImpl implements DiscoveryDAO {
         SqlParameterSource paramSource = new MapSqlParameterSource(paramMap);
         int update = template.update(CREATE_DISCOVERY, paramSource, holder);
         if(update > 0) {
-            resultDiscovery.setId(holder.getKey().longValue());
+            resultDiscovery.setId((Long)holder.getKey());
         }
         return resultDiscovery;
     }
@@ -62,6 +69,28 @@ public class DiscoveryDAOImpl implements DiscoveryDAO {
 
     @Override
     public List<Discovery> getAll() {
-        return null;
+        List<Discovery> discoveries = template.query(READ_ALL_DISCOVERIES, new DiscoveryRowMapper());
+        return discoveries;
+    }
+
+    private class DiscoveryRowMapper implements RowMapper<Discovery> {
+        @Override
+        public Discovery mapRow(ResultSet resultSet, int row) throws SQLException {
+            Discovery discovery = new Discovery();
+            discovery.setId(resultSet.getLong("discovery_id"));
+            discovery.setName(resultSet.getString("name"));
+            discovery.setDescription(resultSet.getString("description"));
+            discovery.setUrl(resultSet.getString("url"));
+            discovery.setUpVote(resultSet.getInt("up_vote"));
+            discovery.setDownVote(resultSet.getInt("down_vote"));
+            discovery.setTimestamp(resultSet.getTimestamp("date"));
+            User user = new User();
+            user.setId(resultSet.getLong("user_id"));
+            user.setUsername(resultSet.getString("username"));
+            user.setEmail(resultSet.getString("email"));
+            user.setPassword(resultSet.getString("password"));
+            discovery.setUser(user);
+            return discovery;
+        }
     }
 }
