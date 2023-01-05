@@ -1,7 +1,12 @@
 import java.util.*;
 
-public class TeleBook {
+public class TeleBook implements Iterable<Contact> {
     private Map<String, Contact> contacts = new TreeMap<>();
+
+    @Override
+    public Iterator<Contact> iterator() {
+        return contacts.values().iterator();
+    }
 
     public TeleBook() {}
 
