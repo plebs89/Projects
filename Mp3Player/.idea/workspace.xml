@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dce2e24-1c93-4c7d-b05d-18494b7ced3b" name="Changes" comment="Mp3Player 2.4">
-      <change afterPath="$PROJECT_DIR$/../.idea/Projects.iml" afterDir="false" />
+    <list default="true" id="1dce2e24-1c93-4c7d-b05d-18494b7ced3b" name="Changes" comment="Mp3Player 2.6">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Projects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/plebs/JavaStart/Projects/Weekop",
+    "last_opened_file_path": "C:/Users/plebs/JavaStart/Projects/ReadStack",
     "list.type.of.created.stylesheet": "CSS",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -188,6 +191,7 @@
       <workItem from="1659264471305" duration="3013000" />
       <workItem from="1659972093726" duration="105000" />
       <workItem from="1674497708364" duration="403000" />
+      <workItem from="1685044046717" duration="561000" />
     </task>
     <task id="LOCAL-00001" summary="Projekt Mp3 Player wersja 1.0">
       <created>1654259249669</created>
@@ -357,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659270365629</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Mp3Player 2.6">
+      <created>1685044141325</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1685044141325</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,6 +412,7 @@
     <MESSAGE value="Mp3Player 2.2" />
     <MESSAGE value="Mp3Player 2.3" />
     <MESSAGE value="Mp3Player 2.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mp3Player 2.4" />
+    <MESSAGE value="Mp3Player 2.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mp3Player 2.6" />
   </component>
 </project>
