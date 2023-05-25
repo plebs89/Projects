@@ -111,7 +111,7 @@ public class MainController {
             File file = fc.showOpenDialog(new Stage());
             try {
                 contentPaneController.getContentTable().getItems().add(Mp3Parser.createMp3Song(file));
-                showMessage("Załadowano plik " + file.getName());
+                showMessage("Załadowano pllik " + file.getName());
             } catch (Exception e) {
                 showMessage("Nie można otworzyć pliku " + file.getName());
             }
