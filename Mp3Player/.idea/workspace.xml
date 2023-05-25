@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dce2e24-1c93-4c7d-b05d-18494b7ced3b" name="Changes" comment="Mp3Player 2.4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Projects.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/plebs/JavaStart/Projects/Library",
+    "last_opened_file_path": "C:/Users/plebs/JavaStart/Projects/Weekop",
     "list.type.of.created.stylesheet": "CSS",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -187,6 +187,7 @@
       <workItem from="1659207588715" duration="1825000" />
       <workItem from="1659264471305" duration="3013000" />
       <workItem from="1659972093726" duration="105000" />
+      <workItem from="1674497708364" duration="403000" />
     </task>
     <task id="LOCAL-00001" summary="Projekt Mp3 Player wersja 1.0">
       <created>1654259249669</created>
