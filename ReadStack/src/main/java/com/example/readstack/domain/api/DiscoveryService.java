@@ -25,4 +25,10 @@ public class DiscoveryService {
             );
         }
     }
+
+    public List<DiscoveryBasicInfo> findAllByCategory(int categoryId) {
+        return discoveryDao.findByCategory(categoryId)
+                .stream().map(DiscoveryMapper::map)
+                .collect(Collectors.toList());
+    }
 }

@@ -5,7 +5,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>ReadStack</title>
+    <title>${requestScope.category.name} - ReadStack</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
@@ -21,15 +21,9 @@
         <a href="#" class="login-button">Zaloguj</a>
     </nav>
 
-    <aside class="categories">
-        <ul>
-            <c:forEach var="category" items="${requestScope.categories}">
-                <li><a href="${pageContext.request.contextPath.concat('/category?id=').concat(category.id)}">${category.name}</a></li>
-            </c:forEach>
-        </ul>
-    </aside>
-
     <main>
+        <h1>${requestScope.category.name}</h1>
+        <p>${requestScope.category.description}</p>
         <c:forEach var="discovery" items="${requestScope.discoveries}">
             <article class="discovery">
                 <h2 class="discovery-header"><c:out value="${discovery.title}"/></h2>
