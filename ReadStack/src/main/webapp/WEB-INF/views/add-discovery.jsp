@@ -4,7 +4,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Zarejestruj się -  ReadStack</title>
+    <title>Zarejestruj się - ReadStack</title>
     <%@ include file="../segments/stylesheets.jspf" %>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/add-discovery-form.css">
 </head>
