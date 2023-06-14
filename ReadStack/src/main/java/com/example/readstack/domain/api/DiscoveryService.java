@@ -41,7 +41,8 @@ public class DiscoveryService {
                     d.getUrl(),
                     d.getDescription(),
                     d.getDateAdded(),
-                    voteDao.countByDiscoveryId(d.getId())); //dodane
+                    voteDao.countByDiscoveryId(d.getId()),
+                    userDao.findById(d.getUserId()).orElseThrow().getUsername()); //dodane
         }
 
         Discovery map(DiscoverySaveRequest ds) {
