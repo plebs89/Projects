@@ -3,6 +3,7 @@ package com.example.readstack.domain.api;
 import com.example.readstack.domain.discovery.Discovery;
 import com.example.readstack.domain.discovery.DiscoveryDao;
 import com.example.readstack.domain.user.UserDao;
+import com.example.readstack.domain.vote.VoteDao;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -31,6 +32,7 @@ public class DiscoveryService {
 
     private static class DiscoveryMapper {
         private final UserDao userDao = new UserDao();
+        private final VoteDao voteDao = new VoteDao(); //dodane
 
         DiscoveryBasicInfo map(Discovery d) {
             return new DiscoveryBasicInfo(
@@ -38,8 +40,8 @@ public class DiscoveryService {
                     d.getTitle(),
                     d.getUrl(),
                     d.getDescription(),
-                    d.getDateAdded()
-            );
+                    d.getDateAdded(),
+                    voteDao.countByDiscoveryId(d.getId())); //dodane
         }
 
         Discovery map(DiscoverySaveRequest ds) {
