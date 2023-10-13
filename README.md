@@ -15,7 +15,7 @@ Poland.
 
 - 🔭 I’m working as a IT Technical Support and privately learning to frontend and backend for building Java applications.
 - ⚡ In my free time I'm building house, learning software languages and tools on courses.
-- 🌱 I'm currently learning IntelliJ IDEA, Java, Jakarta EE, JavaFX, Maven, Git, GitHub, PowerApps, JavaScript, Spring, Spring Boot, Tomcat, MySQL, HTML, CSS.
+- 🌱 I'm currently learning IntelliJ IDEA, Java, Jakarta EE, JavaFX, Maven, Git, GitHub, PowerApps, JavaScript, Spring, Spring Boot, Tomcat, MySQL, HTML, CSS, Thymeleaf, REST, MVC, HIBERNATE, JPA, JPQL, JSP, JSoup, Liquibase, WildFly.
 - :eyes: I'm interested in becoming Full Stack Java Developer and building apps that helps others.
 - 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/Jakub-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jakub-szewczyk-1a1872129/)
 
@@ -41,7 +41,7 @@ Poland.
 <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/bootstrap/bootstrap-original-wordmark.svg" title="Bootstrap"  alt="Bootstrap" width="40" height="40"/>&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/heroku/heroku-original-wordmark.svg" title="Heroku"  alt="Heroku" width="40" height="40"/>&nbsp;
 <img src="https://i0.wp.com/gluonhq.com/wp-content/uploads/2015/02/SceneBuilderLogo.png" title="Scene Builder"  alt="Scene Builder" width="40" height="40"/>&nbsp;
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/1280px-Apache_Maven_logo.svg.png" title="Maven"  alt="Maven" width="80" height="40"/>&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Apache_Maven_logo.svg/1280px-Apache_Maven_logo.svg.png" title="Maven"  alt="Maven" width="60" height="30"/>&nbsp;
 <img src="https://www.javacodeexamples.com/wp-content/uploads/Jsoup.png" title="JSoup"  alt="JSoup" width="70" height="40"/>&nbsp;
 <img src="https://miro.medium.com/max/440/1*J3G3akaMpUOLegw0p0qthA.png" title="REST"  alt="REST" width="60" height="40"/>&nbsp;
 <img src="https://i0.wp.com/design.jboss.org/wildfly/logo/final/wildfly_logo_stacked_600px.png" title="WildFly"  alt="WildFly" width="60" height="40"/>&nbsp;
@@ -50,6 +50,12 @@ Poland.
 <img src="https://d23fqex5axu15s.cloudfront.net/landing2021/sketchboard_logo_text_line_dark.png" title="Sketchboard"  alt="Sketchboard" width="80" height="40"/>&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gradle/gradle-plain-wordmark.svg" title="Gradle"  alt="Gradle" width="40" height="40"/>&nbsp;
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/220px-Stack_Overflow_icon.svg.png" title="Stack Overflow"  alt="Stack Overflow" width="40" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/windows8/windows8-original.svg" title="Windows"  alt="Windows" width="30" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/linux/linux-original.svg" title="Linux"  alt="Linux" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/android/android-original.svg" title="Android"  alt="Android" width="30" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/apple/apple-original.svg" title="Apple"  alt="Apple" width="30" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/chrome/chrome-original.svg" title="Chrome"  alt="Chrome" width="30" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/safari/safari-original.svg" title="Safari"  alt="Safari" width="30" height="40"/>&nbsp;
 </p>
 
 ---
