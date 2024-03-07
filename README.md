@@ -56,6 +56,8 @@ Poland.
 <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/apple/apple-original.svg" title="Apple"  alt="Apple" width="30" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/chrome/chrome-original.svg" title="Chrome"  alt="Chrome" width="30" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/safari/safari-original.svg" title="Safari"  alt="Safari" width="30" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/docker/docker-original-wordmark.svg" title="Docker"  alt="Docker" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/json/json-original.svg" title="JSON"  alt="JSON" width="30" height="40"/>&nbsp;
 </p>
 
 ---
