@@ -1,14 +1,15 @@
-package pl.javastart.movieclub.domain.genre;
+package pl.javastart.movieclub.domain.genre.dto;
 
-import jakarta.persistence.*;
-
-@Entity
-public class Genre {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class GenreDto {
     private Long id;
     private String name;
     private String description;
+
+    public GenreDto(Long id, String name, String description) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+    }
 
     public Long getId() {
         return id;
