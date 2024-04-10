@@ -15,7 +15,7 @@
             <div class="movie-summary">
                 <!-- Ustawiamy adres i opis plakatu -->
                 <img src="../static/img/poster-placeholder.png"
-                     th:src="@{/img/poster-placeholder.png}"
+                     th:src="${movie.poster ne null} ? @{|/img/${movie.poster}|} : @{/img/poster-placeholder.png}"
                      alt="tytuł filmu"
                      th:alt="${movie.title}"
                      class="movie-summary-cover"
@@ -41,7 +41,7 @@
                 <h2 class="movie-section-heading">Ocena</h2>
                 <div>
                     <p class="movie-rating-value" th:text="${avgRating}">4.0</p>
-                    <p style="text-align: center">Liczba ocen: 134</p>
+                    <p>Liczba ocen: 134</p>
                 </div>
                 <form action="#" class="movie-rating-form">
                     <!-- Identyfikator filmu, na który głosujemy-->
