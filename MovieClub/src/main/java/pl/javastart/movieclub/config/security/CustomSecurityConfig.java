@@ -11,14 +11,15 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @Configuration
-public class CustomSecurityConfig {
+class CustomSecurityConfig {
     private static final String USER_ROLE = "USER";
     private static final String EDITOR_ROLE = "EDITOR";
     private static final String ADMIN_ROLE = "ADMIN";
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests((authz) -> authz
-                        .requestMatchers("/admin/**").hasAnyRole(EDITOR_ROLE, ADMIN_ROLE)
+                        .mvcMatchers("/ocen-film").authenticated()
+                        .mvcMatchers("/admin/**").hasAnyRole(EDITOR_ROLE, ADMIN_ROLE)
                         .anyRequest().permitAll()
                 )
                 .formLogin(login -> login
@@ -35,7 +36,7 @@ public class CustomSecurityConfig {
 
     @Bean
     public WebSecurityCustomizer webSecurityCustomizer() {
-        return web -> web.ignoring().requestMatchers(
+        return web -> web.ignoring().mvcMatchers(
                 "/img/**",
                 "/scripts/**",
                 "/styles/**"
