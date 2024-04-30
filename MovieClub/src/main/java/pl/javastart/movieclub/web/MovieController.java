@@ -11,6 +11,8 @@ import pl.javastart.movieclub.domain.movie.MovieService;
 import pl.javastart.movieclub.domain.movie.dto.MovieDto;
 import pl.javastart.movieclub.domain.rating.RatingService;
 
+import java.util.List;
+
 @Controller
 public class MovieController {
     private final MovieService movieService;
@@ -28,14 +30,20 @@ public class MovieController {
         MovieDto movie = movieService.findMovieById(id)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
         model.addAttribute("movie", movie);
-        //Jeżeli użytkownik jest zalogowany
         if (authentication != null) {
             String currentUserEmail = authentication.getName();
-            //to wyszukujemy jego głos
             Integer rating = ratingService.getUserRatingForMovie(currentUserEmail, id).orElse(0);
-            //i zapisujemy go w modelu
             model.addAttribute("userRating", rating);
         }
         return "movie";
+    }
+
+    @GetMapping("/top10")
+    public String findTop10(Model model) {
+        List<MovieDto> top10Movies = movieService.findTopMovies(10);
+        model.addAttribute("heading", "Filmowe TOP10");
+        model.addAttribute("description", "Filmy najlepiej oceniane przez użytkowników");
+        model.addAttribute("movies", top10Movies);
+        return "movie-listing";
     }
 }
