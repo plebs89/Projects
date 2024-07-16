@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="|Zamówienie ${order.id}|">Zamówienie 123</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+          integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="../../static/css/main.css" th:href="@{/css/main.css}" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="p-5 mb-4 bg-light rounded-3 home-jumbo">
+        <div class="container-fluid py-5 text-white text-center">
+            <h1 class="display-3 fw-bold" th:text="|Zamówienie ${order.id}|">Zamówienie 123</h1>
+            <th:block th:switch="${order.status}">
+                <h2 th:case="${T(pl.javastart.foodieapp.order.OrderStatus).NEW}">Status: Nowe</h2>
+                <h2 th:case="${T(pl.javastart.foodieapp.order.OrderStatus).IN_PROGRESS}">Status: W realizacji</h2>
+                <h2 th:case="${T(pl.javastart.foodieapp.order.OrderStatus).COMPLETE}">Status: Zrealizowane</h2>
+            </th:block>
+            <a th:href="@{/panel/zamowienia}">Lista zamówień</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2" th:if="${!order.items.isEmpty()}">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nazwa</th>
+                    <th scope="col">Cena</th>
+                </tr>
+                </thead>
+                <tbody th:remove="all-but-first">
+                <tr th:each="item, idx: ${order.items}">
+                    <th scope="row" th:text="${idx.index+1}">1</th>
+                    <td th:text="${item.name}">Pizza Marggherita</td>
+                    <td th:text="|${item.price}zł|">25zł</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Spaghetti Bolognese</td>
+                    <td>23zł</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Panna Cotta</td>
+                    <td>17zł</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="text-right">
+                <h5 th:text="|Do zapłaty: ${#numbers.formatDecimal(sum,1,2,'COMMA')}zł|">Do zapłaty: 99.99zł</h5>
+            </div>
+            <div class="text-center" th:if="${order.status != T(pl.javastart.foodieapp.order.OrderStatus).COMPLETE}">
+                <form action="#" th:action="@{|/panel/zamowienie/${order.id}|}" method="post">
+                    <button class="btn btn-primary"
+                            th:if="${order.status == T(pl.javastart.foodieapp.order.OrderStatus).NEW}">Realizuj</button>
+                    <button class="btn btn-success"
+                            th:if="${order.status == T(pl.javastart.foodieapp.order.OrderStatus).IN_PROGRESS}">Zakończ</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-12">
+            <div th:if="${order.items.isEmpty()}" class="text-center">
+                <h2>Zamówienie jest puste</h2>
+                <a href="#" th:href="@{/panel/zamowienia}">Wróć do listy zamówień</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
