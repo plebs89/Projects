@@ -1,11 +1,11 @@
 package pl.javastart.equipy.components.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
+import java.util.Optional;
 
-public interface UserRepository extends JpaRepository<User, Long> {
-    @Query("Select u from User u where lower(u.lastName) like lower(concat('%', :lastName,'%'))")
+interface UserRepository extends JpaRepository<User, Long> {
+    Optional<User> findByPesel(String pesel);
     List<User> findAllByLastNameContainingIgnoreCase(String lastName);
 }
