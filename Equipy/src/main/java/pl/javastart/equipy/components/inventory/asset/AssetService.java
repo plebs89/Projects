@@ -21,4 +21,11 @@ class AssetService {
                 .map(assetMapper::toDto)
                 .collect(Collectors.toList());
     }
+
+    List<AssetDto> findAllByNameOrSerialNumber(String text) {
+        return assetRepository.findAllByNameOrSerialNumber(text)
+                .stream()
+                .map(assetMapper::toDto)
+                .collect(Collectors.toList());
+    }
 }
