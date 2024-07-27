@@ -30,11 +30,29 @@ class AssetService {
                 .collect(Collectors.toList());
     }
 
+    Optional<AssetDto> findById(Long id) {
+        return assetRepository.findById(id).map(assetMapper::toDto);
+    }
+
     AssetDto save(AssetDto asset) {
         Optional<Asset> assetBySerialNo = assetRepository.findBySerialNumber(asset.getSerialNumber());
         assetBySerialNo.ifPresent(a -> {
             throw new DuplicateSerialNumberException();
         });
+        return mapAndSave(asset);
+    }
+
+    AssetDto update(AssetDto asset) {
+        Optional<Asset> assetBySerialNo = assetRepository.findBySerialNumber(asset.getSerialNumber());
+        assetBySerialNo.ifPresent(a -> {
+            if (!a.getId().equals(asset.getId())) {
+                throw new DuplicateSerialNumberException();
+            }
+        });
+        return mapAndSave(asset);
+    }
+
+    private AssetDto mapAndSave(AssetDto asset) {
         Asset assetEntity = assetMapper.toEntity(asset);
         Asset savedAsset = assetRepository.save(assetEntity);
         return assetMapper.toDto(savedAsset);
