@@ -62,4 +62,9 @@ public class UserResource {
         UserDto updatedUser = userService.update(user);
         return ResponseEntity.ok(updatedUser);
     }
+
+    @GetMapping("/{id}/assignments")
+    public List<UserAssignmentDto> getUserAssignments(@PathVariable Long id) {
+        return userService.getUserAssignments(id);
+    }
 }
