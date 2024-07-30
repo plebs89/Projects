@@ -63,4 +63,9 @@ public class AssetResource {
         AssetDto updatedAsset = assetService.update(asset);
         return ResponseEntity.ok(updatedAsset);
     }
+
+    @GetMapping("/{id}/assignments")
+    public List<AssetAssignmentDto> getAssetAssignments(@PathVariable Long id) {
+        return assetService.getAssetAssignments(id);
+    }
 }

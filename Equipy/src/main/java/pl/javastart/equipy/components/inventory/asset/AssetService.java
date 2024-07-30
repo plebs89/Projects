@@ -57,4 +57,13 @@ class AssetService {
         Asset savedAsset = assetRepository.save(assetEntity);
         return assetMapper.toDto(savedAsset);
     }
+
+    List<AssetAssignmentDto> getAssetAssignments(Long id) {
+        return assetRepository.findById(id)
+                .map(Asset::getAssignments)
+                .orElseThrow(AssetNotFoundException::new)
+                .stream()
+                .map(AssetAssignmentMapper::toDto)
+                .collect(Collectors.toList());
+    }
 }
