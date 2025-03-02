@@ -15,7 +15,7 @@ Poland.
 
 - 🔭 I’m working as a IT Technical Support and privately learning to frontend and backend for building Java applications.
 - ⚡ In my free time I'm building house, learning software languages and tools on courses.
-- 🌱 I'm currently learning IntelliJ IDEA, Java, Jakarta EE, JavaFX, Maven, Git, GitHub, PowerApps, JavaScript, Spring, Spring Boot, Tomcat, MySQL, HTML, CSS, Thymeleaf, REST, MVC, HIBERNATE, JPA, JPQL, JSP, JSoup, Liquibase, WildFly.
+- 🌱 I'm currently learning IntelliJ IDEA, Java, Jakarta EE, JavaFX, Maven, Git, GitHub, PowerApps, JavaScript, Spring, Spring Boot, AngularJS, Tomcat, TomEE, MySQL, Brackets, NodeJS, Hibernate, HTML, CRUD, CSS, Thymeleaf, REST, MVC, HIBERNATE, JPA, JPQL, JSP, JSTL, JDBC, JTA, DAO, EJB, JMS, JAXB, JSoup, Liquibase, WildFly, Putty, Jenkins.
 - :eyes: I'm interested in becoming Full Stack Java Developer and building apps that helps others.
 - 📫 How to reach me: &nbsp; [![Linkedin Badge](https://img.shields.io/badge/Jakub-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jakub-szewczyk-1a1872129/)
 
@@ -48,7 +48,7 @@ Poland.
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original-wordmark.svg" title="Visual Studio Code"  alt="Visual Studio Code" width="40" height="40"/>&nbsp;
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brackets_Icon.svg/1200px-Brackets_Icon.svg.png" title="Brackets"  alt="Brackets" width="40" height="40"/>&nbsp;
 <img src="https://d23fqex5axu15s.cloudfront.net/landing2021/sketchboard_logo_text_line_dark.png" title="Sketchboard"  alt="Sketchboard" width="80" height="40"/>&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gradle/gradle-plain-wordmark.svg" title="Gradle"  alt="Gradle" width="40" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/gradle/gradle-original.svg" title="Gradle"  alt="Gradle" width="40" height="40"/>&nbsp;
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/220px-Stack_Overflow_icon.svg.png" title="Stack Overflow"  alt="Stack Overflow" width="40" height="40"/>&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/windows8/windows8-original.svg" title="Windows"  alt="Windows" width="30" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/linux/linux-original.svg" title="Linux"  alt="Linux" width="40" height="40"/>
@@ -58,6 +58,12 @@ Poland.
 <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/safari/safari-original.svg" title="Safari"  alt="Safari" width="30" height="40"/>&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/docker/docker-original-wordmark.svg" title="Docker"  alt="Docker" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/json/json-original.svg" title="JSON"  alt="JSON" width="30" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/angularjs/angularjs-original.svg" title="AngularJS"  alt="AngularJS" width="30" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/hibernate/hibernate-original-wordmark.svg" title="Hibernate"  alt="Hibernate" width="30" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/bower/bower-original-wordmark.svg" title="Bower"  alt="Bower" width="30" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS"  alt="NodeJS" width="40" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/putty/putty-original.svg" title="Putty"  alt="Putty" width="40" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/jenkins/jenkins-original.svg" title="Jenkins"  alt="Jenkins" width="40" height="40"/>&nbsp;
 </p>
 
 ---
